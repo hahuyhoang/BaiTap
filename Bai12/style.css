@@ -1,0 +1,46 @@
+body{
+    font-family: Helvetica, sans-serif;
+}
+.container
+{
+    margin: 30px auto;
+    width: 1000px;
+}
+.d-flex{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s color;
+}
+.navbar{
+    background-color: rgb(240, 234, 234);
+    width: 900px;
+    height: 50px;
+    align-items: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.left-item .text{
+    margin: 0 10px 0 10px;
+}
+.right-item .item{
+    margin-right: 10px;
+    border: 2px solid #ccc;
+    height: 30px;
+    line-height: 29px;
+    padding: 5px;
+    border-radius: 4px;
+    
+}
+.left-item .text .active{
+    color: #00aeef;
+}
+.left-item .text a:hover{
+    color: #00aeef;
+}
+.right-item .item:hover{
+    border: 2px solid #00aeef;
+}

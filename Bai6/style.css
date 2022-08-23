@@ -1,0 +1,53 @@
+.clearfix{
+    zoom: 1;
+}
+.clearfix:after{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+body{
+    font-family: Helvetica, sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    list-style-type: none;
+}
+.example{
+    margin: 30px auto;
+    width: 900px;
+}
+.example .list li img{
+    float: left;
+    margin-right: 26px;
+    width: 189px;
+}
+.example h2{
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+}
+.example h2 span{
+    background-color: #fff;
+    position: relative;
+    padding: 0 20px;
+    z-index: 1;
+}
+.example h2:after {
+    background-color: #e1e0e0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+}
+/* .example .list li:nth-child(4n) {
+    margin-right: 0;
+  } */

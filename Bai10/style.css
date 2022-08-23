@@ -1,0 +1,31 @@
+body{
+    font-family: Helvetica, sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+.analytic {
+    background: url(img/bground.jpg);
+    margin: 30px auto;
+    padding: 38px 0;
+    width: 1180px;
+}
+.analytic ul{
+    text-align: center;
+}
+.analytic ul li{
+    color: #fff;
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+}
+.analytic ul li p{
+    width: 100%;
+}
+.analytic ul li .number{
+    font-size: 30px;
+    font-weight: 400;
+}
+.analytic ul li .icon{
+    font-size: 29px;
+}

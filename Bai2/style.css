@@ -1,0 +1,40 @@
+body{
+    font-family: Helvetica,sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.text-center{
+    text-align: center;
+}
+.firts-text{
+    margin-bottom: 33px;
+}
+.sub-text{
+    margin-bottom: 30px;
+}
+.lastest-version{
+    background: url(/Bai2/img/backgr.jpg) no-repeat left top;
+    padding: 156px 0 156px;
+    width: 100%;
+    color: #fff;
+}
+.lastest-version .btn a{
+    box-shadow: inset 0px 0px 0px 0px #cf866c;
+    height: 31px;
+    min-width: 100px;
+    line-height: 30px;
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid #942911;
+    padding: 16px 14px;
+    opacity: 1;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.3s all;
+    text-shadow: 0px 1px 0px #854629;
+    background: linear-gradient(to bottom, #e4553f 5%, #d83f2e 100%);
+}
+.lastest-version .btn a:hover{
+    opacity: 0.8;
+}

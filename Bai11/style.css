@@ -1,0 +1,31 @@
+body{
+    font-family: Helvetica, sans-serif;
+}
+.container{
+    margin: 30px auto;
+    width: 1140px;
+}
+.d-flex{
+    display: flex;
+}
+.container .list-item{
+    text-align: center;
+}
+.container .list-item .icon{
+    color: #70CBCE;
+    border: 2px solid #70CBCE;
+    border-radius: 50%;
+    height: 54px;
+    line-height: 56px;
+    text-align: center;
+    min-width: 54px;
+    display: inline-block;
+    font-size: 30px;
+}
+.container .list-item .item{
+    margin-bottom: 30px;
+    margin-right: 30px;
+    padding: 25px 15px;
+    /* width: 220px; */
+    background-color: rgb(240, 236, 236);
+}

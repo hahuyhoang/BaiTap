@@ -1,0 +1,32 @@
+body{
+    font-family: Helvetica, sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+.feature{
+    margin: 30px auto;
+    width: 690px;
+}
+.clearfix{
+    zoom: 1;
+}
+.clearfix:after{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.feature ul li{
+    float: left;
+    font-size: 15px;
+    margin-bottom: 20px;
+    width: 33.3%;
+}
+.feature ul li i{
+    color: #c2d82e;
+    margin-right: 10px;
+    
+}

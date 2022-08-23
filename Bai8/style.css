@@ -1,0 +1,49 @@
+body{
+    font-family: Helvetica, sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    transition: 0.3s color;
+}
+.hwc{
+    margin: 30px auto;
+    width: 1080px;
+}
+.hwc .text-header{
+    text-align: center;
+    color: #b4b4b4;
+}
+.clearfix{
+    zoom: 1;
+}
+.clearfix::after{
+    clear: both;
+    content: "";
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    display: block;
+}
+.hwc .list-item li{
+    width: 260px;
+    float: left;
+    text-align: center;
+}
+.hwc .list-item{
+    margin-top: 50px;
+}
+.hwc .list-item li img{
+    display: inline-block;
+    margin-bottom: 17px;
+}
+.hwc .list-item li a:hover{
+    color: brown;
+}

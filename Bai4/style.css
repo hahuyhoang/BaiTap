@@ -1,0 +1,36 @@
+body{
+    font-family: Helvetica,sans-serif;
+}
+.learn-web{
+    margin: 30px auto;
+    width: 700px;
+}
+.learn-web .text-header{
+    font-size: 20px;
+}
+.learn-web img{
+    width: 100%;
+}
+.learn-web .text-footter p{
+    color: #ccc;
+    margin-bottom: 20px;
+}
+.learn-web .read-more{
+    background-color: #70CBCE;
+    border: 1px solid #70CBCE;
+    display: block;
+    min-width: 34px;
+    height: 45px;
+    line-height: 2px;
+    padding: 20px 34px 24px 35px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+.learn-web .read-more:hover{
+    background-color: #de4a1e;
+    border: 1px solid #de4a1e;
+}
+.learn-web .text-footter h3{
+    margin-bottom: 25px;
+}
